@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pokemon_Detalle">
+
+    <ImageView
+        android:id="@+id/imagenPokemon"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/codigoP"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Codigo" />
+
+    <TextView
+        android:id="@+id/nombreP"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Nombre" />
+
+    <TextView
+        android:id="@+id/tipoP"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Tipo" />
+
+    <Button
+        android:id="@+id/goP"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="MOSTRAR UBICACION"
+        android:textSize="25dp"/>
+
+</LinearLayout>
